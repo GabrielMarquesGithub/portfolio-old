@@ -23,8 +23,8 @@
         </div>
         <div class="linksContainer">
           <a href="#knowledgeContainer">Conhecimentos</a>
-          <a href="#">Projetos</a>
-          <a href="#">Contato</a>
+          <a href="#projects">Projetos</a>
+          <a href="#network">Contato</a>
         </div>
       </nav>
       <div class="logoContainer">
@@ -38,70 +38,92 @@
       </div>
 
       <div class="text">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aut est
-        veniam libero ex unde nostrum provident itaque eaque. Voluptate dolores
-        reprehenderit molestias et nam facilis deleniti est commodi earum?
+        Hello, eu me chamo <strong>Gabriel</strong> atuo como dev front-end,
+        focado na criação de interfaces e sistemas interativos, intuitivos e
+        responsivos. Seja bem vindo ao meu <strong>portfólio</strong> e veja um
+        pouquinho do que sou como desenvolvedor
       </div>
     </header>
     <main>
-      <section id="knowledgeContainer">
-        <div class="presentation">
-          <div class="card">
-            <h3>titulo</h3>
-            <div class="chosenItem">
-              <span class="support"></span>
-              <img
-                class="replacement"
-                draggable="true"
-                src="./assets/img/icons/reactIcon.svg"
-                alt="react Ícone"
-              />
+      <section id="knowledgeContainer" class="reveal">
+        <div class="presentationContainer">
+          <div class="presentation">
+            <div class="card">
+              <h3>titulo</h3>
+              <div class="chosenItem">
+                <span class="support"></span>
+                <img
+                  class="iconKnowledge"
+                  draggable="true"
+                  src="./assets/img/icons/reactIcon.svg"
+                  alt="react Ícone"
+                />
+              </div>
             </div>
+
+            <h4>Nível da habilidade</h4>
+            <p></p>
+            <h4>Informações</h4>
+            <p></p>
           </div>
-          <h4>Nível da habilidade</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dignissimos, suscipit? Voluptatem error dicta eligendi eos cumque,
-            consequatur quo? Ea dolor velit, officia eos unde voluptate.
-            Obcaecati, labore quasi! Quae, tempore. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Quas, sequi eaque, quidem ratione sunt
-          </p>
-          <h4>Informações e Experiência</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dignissimos, suscipit? Voluptatem error dicta eligendi eos cumque,
-            consequatur quo? Ea dolor velit, officia eos unde voluptate.
-            Obcaecati, labore quasi! Quae, tempore. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Quas, sequi eaque, quidem ratione sunt
-          </p>
         </div>
         <div class="choice">
-          <h3>
-            Minhas principais ferramentas
-            <i class="fa-solid fa-circle-exclamation"></i>
-          </h3>
+          <h3>Minhas principais ferramentas</h3>
           <div class="toolsContainer"></div>
         </div>
       </section>
-      <section id="project">
-        <div class="carousselContainer">
-          <button></button>
-          <img src="./assets/img/projects/cartHome.png" alt="" />
-          <button></button>
-          <div class="carousselDots">
-            <span></span>
+      <section id="projects" class="reveal">
+        <div class="carouselContainer">
+          <div class="projectLinks">
+            <a href="#" target="_blank" class="projectLinkApp">App</a>
+            <a href="#" target="_blank" class="projectLinkGithub">Github</a>
+          </div>
+          <div class="contentContainer">
+            <button class="leftArrow">
+              <img src="./assets/img/arrow.svg" alt="seta esquerda" />
+            </button>
+            <a href="#" target="_blank" class="projectLinkImg">
+              <img src="./assets/img/projects/cartHome.png" alt="" />
+            </a>
+            <div class="carouselDots"></div>
+            <button class="rightArrow">
+              <img src="./assets/img/arrow.svg" alt="seta direita" />
+            </button>
           </div>
         </div>
       </section>
     </main>
+    <footer id="network">
+      <div class="footerContainer">
+        <div class="networks">
+          <a
+            href="https://www.linkedin.com/in/gabriel-marques-magalhaes/"
+            target="_blank"
+            ><img
+              src="./assets/img/icons/linkedinIcon.svg"
+              alt="LinkedIn ícone"
+          /></a>
+          <a href="https://github.com/NikisGabriel" target="_blank"
+            ><img src="./assets/img/icons/githubIcon.svg" alt="Github ícone"
+          /></a>
+          <a href="mailto:gabrielmagalhaes777@gmail.com" target="_blank"
+            ><img src="./assets/img/icons/emailIcon.svg" alt="Email ícone"
+          /></a>
+          <a href="https://wa.me/5538999656591" target="_blank"
+            ><img src="./assets/img/icons/phoneIcon.svg" alt="Phone ícone"
+          /></a>
+        </div>
+        <small
+          >&copy; Copyright
+          <a href="https://github.com/NikisGabriel" target="_blank"
+            >Gabriel Marques Magalhães</a
+          ></small
+        >
+      </div>
+    </footer>
     <!-- Mouse -->
     <div class="cursor"></div>
     <div class="cursor2"></div>
-    <!-- Icons -->
-    <script
-      src="https://kit.fontawesome.com/5963d48d84.js"
-      crossorigin="anonymous"
-    ></script>
     <!-- Js -->
     <script src="./assets/js/main.js"></script>
   </body>
