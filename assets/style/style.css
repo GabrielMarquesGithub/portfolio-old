@@ -270,14 +270,11 @@ header .text {
   padding: 3rem;
   border-radius: 2rem;
 
-  height: 100%;
-  max-height: 400px;
-
   position: relative;
 }
 #projects .projectLinks {
   position: absolute;
-  left: 10rem;
+  left: 5rem;
   margin-top: -5rem;
   z-index: 1;
 
@@ -308,18 +305,15 @@ header .text {
 
 #projects .contentContainer {
   width: 100%;
+  max-height: 100%;
 
   display: flex;
   justify-content: center;
   gap: 5px;
 
-  height: 100%;
-
   position: relative;
 }
 #projects .carouselContainer button {
-  height: 100%;
-
   width: 5rem;
   padding: 2rem;
 
@@ -344,7 +338,7 @@ header .text {
   position: relative;
   z-index: -1;
 
-  max-width: 100%;
+  width: 100%;
   opacity: 0.3;
   transition: opacity 0.4s;
 }
@@ -447,4 +441,8 @@ footer .networks a:hover {
 .reveal.active {
   transform: translateX(0);
   opacity: 1;
+}
+
+/* ##################################### Display 1000px ###################################### */
+@media (max-width: 1000px) {
 }
